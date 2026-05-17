@@ -24,10 +24,10 @@ class FallDetectionService {
     double accelerationSqrt = sqrt(acceleration);
 
     // Threshold for fall detection (adjust based on testing)
-    if (accelerationSqrt > 25.0) { // Example threshold
-      _detectedFall();
-    }
-  }
+  //   if (accelerationSqrt > 25.0) { // Example threshold
+  //     _detectedFall();
+  //   }
+  // }
 
   void _detectedFall() {
     // Trigger emergency alert
